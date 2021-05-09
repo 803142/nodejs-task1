@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my_caesar_cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/803142/nodejs-task1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/803142/nodejs-task1/issues"
+  },
+  "homepage": "https://github.com/803142/nodejs-task1#readme",
+  "dependencies": {
+    "commander": "^7.2.0"
+  }
+}
