@@ -15,6 +15,10 @@ program.parse(process.argv);
 
 const options = program.opts();
 
+if (options.action === 'decode') {
+  options.shift = -parseInt(options.shift, 10);
+}
+
 try {
   const data = fs.readFileSync(`${options.input}`);
   console.log(data.toString('latin1'));
@@ -28,5 +32,5 @@ try {
     }
     ,''));
 } catch (err) {
-  console.error('file not found', err);
+  console.error('file not found');
 }
